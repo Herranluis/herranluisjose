@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Línea de atención en la parte superior */
+.linea-atencion {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.linea-atencion p {
+    margin: 0;
+}
+
+/* Header con logo y menú de navegación */
+.headerMenu {
+    background-color: white; /* Cambiado a blanco */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd; /* Línea divisoria */
+}
+
+/* Logo a la izquierda */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Menú de navegación */
+.menu {
+    flex-grow: 1;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; /* Alinear elementos al final */
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 20px; /* Espaciado entre elementos */
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Sección principal con imagen */
+.content-with-image {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.noticia-img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.noticias {
+    max-width: 600px;
+}
+
+.noticias h2 {
+    color: red;
+}
+
+.noticias p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Redes sociales */
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.redes-sociales a img {
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.redes-sociales a img:hover {
+    transform: scale(1.2);
+}
